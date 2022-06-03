@@ -1,0 +1,190 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+
+}
+
+header .menu {
+    display:flex;
+    justify-content: right;
+    background-color:#1b93e9;
+    
+}
+header .menu .menu-item   {
+    padding: 25px 25px 50px 25px;
+    font-size: 200%;
+}
+
+.menu-item p{
+    color: #fff;
+}
+
+.menu-item p:hover{
+    color: bisque;
+}
+
+footer {
+    text-align: center;
+}
+
+  main .name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    text-align: left;
+    color: #fff;
+    margin: -80px auto 15px;
+
+}
+  main p {
+    font-size: 134%;
+  }
+
+  main h2{
+      font-size: 170%;
+  }
+  main li{
+      font-size:134%;
+      list-style: square;
+      margin-left: 25px;
+  }
+
+img {
+    margin-right: 25px;
+    float:left;
+    width:400px;
+    height:400px;
+    border-radius: 40%;
+}
+
+ footer .con-btn a{
+    background-color: #1b93e9;
+    color:#fff;
+    width: 30%;
+    padding:10px ;
+    margin:10px 0;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    outline:none;
+    cursor: pointer;
+ }
+
+.con-form{ 
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgba(0,0,0.3);
+    padding: 20px;
+    margin: 5% auto 0;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.con-form h1{
+    color: #1b93e9;
+    margin-bottom: 30px;
+}
+.contact-btn{
+    background-color: #1b93e9;
+}
+
+.reg-form{
+    width: 1000px;
+    height:auto;
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgba(0,0,0.3);
+    padding: 20px;
+    margin: 5% auto 0;
+    text-align: left;
+    border-radius: 20px;
+}
+#reg{
+    text-align: center;
+    color: #1b93e9;
+    margin-bottom: 20px;
+}
+
+.reg-box{
+    border-radius: 20px;
+    border:1px solid #999;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    overflow: hidden;
+    outline: none;
+}
+
+.reg-btn a{
+    background-color: #1b93e9;
+    color:#fff;
+    width: 20%;
+    padding:10px ;
+    margin:10px 830px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    outline:none;
+    cursor: pointer; 
+}
+label{
+    cursor: pointer;
+    color: black;
+    display:inline-block;
+    width: 150px;
+}
+
+.login-form{
+    width: 300px;
+    height:420px;
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgba(0,0,0.3);
+    padding: 20px;
+    margin: 5% auto 0;
+    text-align: center;
+    border-radius: 20px;
+}
+.login-form h1{
+    color: #1b93e9;
+    margin-bottom: 20px;
+}
+
+main form p{
+    font-size:90%;
+}
+.input-box{
+    padding:10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    width: 100%;
+    border:1px solid #999;
+    outline: none;
+}
+button{
+    color:#fff;
+    width: 100%;
+    padding:10px ;
+    margin:10px 0;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    outline:none;
+    cursor: pointer;
+}
+.log-btn{
+    background-color: #1b93e9;
+}
+
+hr{
+    margin-top: 20px;
+    width:100%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -10px auto 10px;
+}
